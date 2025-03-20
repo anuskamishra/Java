@@ -7,8 +7,6 @@ public class Symmetric_2DArray {
     public static int[][] create2DArray(int size) {
         Scanner scan = new Scanner(System.in);
         int[][] arr = new int[size][size];
-
-        System.out.println("Enter " + (size * size) + " elements for the " + size + "x" + size + " matrix:");
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
                 arr[i][j] = scan.nextInt();
