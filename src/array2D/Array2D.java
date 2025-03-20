@@ -20,8 +20,9 @@ public class Array2D {
 
 			System.out.println();
 		}
-
+        
 		System.out.println(Arrays.deepToString(arr));
+		//using for each loop
 		for (int[] row : arr) {   
             for (int value : row) { 
                 System.out.print(value + " ");
