@@ -17,9 +17,9 @@ public class Student {
         this.college = college;
         this.marks = marks;
     }
+    //constructor chaining
 	 public Student(int ID, String name, String college) {
-	        this.ID = ID;
-	        this.name = name;
+	        this(ID,name);
 	        this.college = college;
 	        
 	    }
