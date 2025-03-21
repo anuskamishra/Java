@@ -18,5 +18,6 @@ public class StudentDriver {
 		s2.marks = 68.54;
 		System.out.println(s1.college + " " + s2.ID + " " + s2.marks + " " + s2.name);
 		s2.study();
+		
 	}
 }
