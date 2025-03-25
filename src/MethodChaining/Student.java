@@ -8,6 +8,10 @@ public Student setName(String name) {
 	return this;//address of currently addressing object
 	
 }
+public Student setID(int id) {
+	this.id = id;
+	return this;
+}
 public void display() {
 	System.out.println(this.name+"  "+this.id);
 	
