@@ -1,7 +1,10 @@
 package MethodOverRiding;
 
-public class Dog extends Animal{
-public void sound() {
-	System.out.println("dog is barking");
-}
+public class Dog extends Animal {
+	String breed{
+		
+	}
+	public void sound() {
+		System.out.println("dog is barking");
+	}// method overriding
 }
