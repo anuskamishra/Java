@@ -13,6 +13,8 @@ public class Driver {
 		System.out.println(e2.hashCode());//integer value used to represent an object
 		String s = "Anuska";
 		System.out.println(s.hashCode());
+		Employee e = new Employee(101, 50000.0, "anu");
+		//Object e3 = e.clone();
 				
 	}
 }
